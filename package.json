@@ -1,0 +1,31 @@
+{
+  "name": "water2wires",
+  "version": "2.0.1",
+  "description": "Professional Data Recovery & System Optimization for Windows",
+  "author": "Landon <Idontsmoke420@gmail.com>",
+  "license": "Commercial",
+  "homepage": "https://www.water2wires.com",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "package": "python build.py",
+    "clean": "python build.py clean"
+  },
+  "dependencies": {
+    "svelte": "^4.2.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.0"
+  }
+}

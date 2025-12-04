@@ -1,0 +1,57 @@
+# Water2Wires - Data Recovery Application
+# Core Dependencies
+
+# Filesystem Access
+pytsk3>=20210419
+pyewf>=20210508
+
+# Binary Parsing
+construct>=2.10.70
+numpy>=1.24.0
+
+# AI/ML
+onnxruntime>=1.16.0
+onnxruntime-gpu>=1.16.0; sys_platform != "darwin"
+
+# System Utilities
+psutil>=5.9.0
+cryptography>=41.0.0
+
+# Database
+aiosqlite>=0.19.0
+
+# Async Support
+aiofiles>=23.2.0
+asyncio>=3.4.3
+
+# Live Monitoring
+watchdog>=3.0.0
+zstandard>=0.21.0
+
+# Image Processing (for previews)
+Pillow>=10.0.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+
+# Video/Audio Metadata
+mutagen>=1.47.0
+
+# CLI Support
+click>=8.1.0
+rich>=13.5.0
+
+# Configuration
+pyyaml>=6.0.1
+toml>=0.10.2
+
+# Windows-specific
+pywin32>=306; sys_platform == "win32"
+wmi>=1.5.1; sys_platform == "win32"
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.9.0
+mypy>=1.5.0
+
